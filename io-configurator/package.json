@@ -1,0 +1,19 @@
+{
+  "name": "io-configurator",
+  "version": "0.0.1",
+  "description": "A rete based input / output configurator for kehops board.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rete",
+    "visual",
+    "programming",
+    "kehops",
+    "robotic",
+    "electronic"
+  ],
+  "author": "CyaNn",
+  "license": "GPL-3.0-or-later"
+}
