@@ -4,7 +4,9 @@
   "description": "A rete based input / output configurator for kehops board.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
   },
   "keywords": [
     "rete",
@@ -15,5 +17,12 @@
     "electronic"
   ],
   "author": "CyaNn",
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.0.0-beta.8",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {}
 }
