@@ -4,12 +4,26 @@
 <head>
   <meta charset="utf-8">
   <title>Titre de la page</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    #d3ne {
+      height: 100%;
+      position: relative;
+    }
+
+    .socket.number {
+      background: #96b38a
+    }
+  </style>
 </head>
 
 <body>
-  <div style="width:800px; height:600px; border:1px solid black">
-    <div id="rete"></div>
-  </div>
+  <div id="rete" class="node-editor"></div>
 </body>
 
 </html>

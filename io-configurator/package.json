@@ -21,6 +21,8 @@
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.5.5",
     "html-webpack-plugin": "^4.0.0-beta.8",
+    "rete-alight-render-plugin": "^0.1.5",
+    "rete-context-menu-plugin": "^0.4.1",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.8.0"
@@ -30,6 +32,6 @@
     "@babel/runtime": "^7.5.5",
     "rete": "^1.4.1-rc.2",
     "rete-connection-plugin": "^0.8.2-rc.1",
-    "rete-vue-render-plugin": "^0.4.0"
+    "rete-task-plugin": "^0.2.0-rc.2"
   }
 }
