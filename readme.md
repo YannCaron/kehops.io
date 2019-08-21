@@ -1,5 +1,14 @@
 # webpack usage
 
+## prerequisit
+
+1. install nodejs
+2. clone this git repo
+3. go to repo
+4. install node packages
+
+`npm install`
+
 ## start server
 
 1. go to your webpack directory
